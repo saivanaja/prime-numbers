@@ -31,7 +31,8 @@ int primenum(int num, int i)
        }
        else
        {
-         return primenum(num, i - 1);
+//         return primenum(num, i - 1);
+           return primenum(num, i - 2);
        }       
     }
 }
